@@ -53,8 +53,8 @@ class _OrdersState extends State<Orders> {
                     children: [
                       Image.asset(
                         "assets/shoes.jpg",
-                        width: 170,
-                        height: 170,
+                        width: 150,
+                        height: 150,
                       ),
                       Container(
                         padding: const EdgeInsets.only(left: 20),
@@ -62,9 +62,10 @@ class _OrdersState extends State<Orders> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Mã đơn hàng: #DH001XYZ"),
-                            Text("Ngày mua: 10-10-2023"),
                             Text("Tên sản phẩm: Giày"),
-                            Text("Giá sản phẩm: 2.000.000đ"),
+                            Text("Ngày mua: 10-10-2023"),
+                            Text("Số lượng: 1"),
+                            Text("Tổng tiền: 2.000.000đ"),
                             Row(
                               children: [
                                 Text("Trạng thái: Đã thanh toán"),
@@ -91,8 +92,8 @@ class _OrdersState extends State<Orders> {
                     children: [
                       Image.asset(
                         "assets/shoes.jpg",
-                        width: 170,
-                        height: 170,
+                        width: 150,
+                        height: 150,
                       ),
                       Container(
                         padding: const EdgeInsets.only(left: 20),
@@ -100,9 +101,10 @@ class _OrdersState extends State<Orders> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Mã đơn hàng: #DH001XYZ"),
-                            Text("Ngày mua: 11-10-2023"),
                             Text("Tên sản phẩm: Giày"),
-                            Text("Giá sản phẩm: 2.000.000đ"),
+                            Text("Ngày mua: 11-10-2023"),
+                            Text("Số lượng: 1"),
+                            Text("Tổng tiền: 2.000.000đ"),
                             Row(
                               children: [
                                 Text("Trạng thái: Đã hủy"),
@@ -138,8 +140,8 @@ class _OrdersState extends State<Orders> {
                     children: [
                       Image.asset(
                         "assets/shoes.jpg",
-                        width: 170,
-                        height: 170,
+                        width: 150,
+                        height: 150,
                       ),
                       Container(
                         padding: const EdgeInsets.only(left: 20),
@@ -147,9 +149,10 @@ class _OrdersState extends State<Orders> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Mã đơn hàng: #DH001XYZ"),
-                            Text("Ngày mua: 10-10-2023"),
                             Text("Tên sản phẩm: Giày"),
-                            Text("Giá sản phẩm: 2.000.000đ"),
+                            Text("Ngày mua: 10-10-2023"),
+                            Text("Số lượng: 1"),
+                            Text("Tổng tiền: 2.000.000đ"),
                             Row(
                               children: [
                                 Text("Trạng thái: Đã thanh toán"),
@@ -178,8 +181,8 @@ class _OrdersState extends State<Orders> {
                     children: [
                       Image.asset(
                         "assets/shoes.jpg",
-                        width: 170,
-                        height: 170,
+                        width: 150,
+                        height: 150,
                       ),
                       Container(
                         padding: const EdgeInsets.only(left: 20),
@@ -187,9 +190,10 @@ class _OrdersState extends State<Orders> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Mã đơn hàng: #DH001XYZ"),
-                            Text("Ngày mua: 11-10-2023"),
                             Text("Tên sản phẩm: Giày"),
-                            Text("Giá sản phẩm: 2.000.000đ"),
+                            Text("Ngày mua: 11-10-2023"),
+                            Text("Số lượng: 1"),
+                            Text("Tổng tiền: 2.000.000đ"),
                             Row(
                               children: [
                                 Text("Trạng thái: Đã hủy"),
