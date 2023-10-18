@@ -13,11 +13,11 @@ class Menu extends StatelessWidget {
           children: <Widget>[
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blue
+                color:  Color.fromARGB(255, 229, 115, 115)
               ),
               child: Text('Menu',
               style: TextStyle(
-                color: Colors.blue,
+                color:  Color.fromARGB(255, 229, 115, 115),
                 fontSize: 24,
               ),
               ),
@@ -25,8 +25,8 @@ class Menu extends StatelessWidget {
             
             
              ListTile(
-              title: Text("Cài đặt",style: TextStyle(color: (idx == 0 ? Colors.blueAccent:Colors.grey),),),
-              leading:Icon(Icons.settings,color: (idx == 0 ? Colors.blueAccent:Colors.grey)),
+              title: Text("Cài đặt",style: TextStyle(color: (idx == 0 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey),),),
+              leading:Icon(Icons.settings,color: (idx == 0 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey)),
               onTap: ()
               {
                 if(idx!=0)
@@ -37,8 +37,8 @@ class Menu extends StatelessWidget {
               },
             ),
             ListTile(
-              title: Text("Hỗ trợ",style: TextStyle(color: (idx == 1 ? Colors.blueAccent:Colors.grey),),),
-              leading:Icon(Icons.support_agent,color: (idx == 1 ? Colors.blueAccent:Colors.grey)),
+              title: Text("Hỗ trợ",style: TextStyle(color: (idx == 1 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey),),),
+              leading:Icon(Icons.support_agent,color: (idx == 1 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey)),
               onTap: ()
               {
                 if(idx!=1)
@@ -49,8 +49,8 @@ class Menu extends StatelessWidget {
               },
             ),
             ListTile(
-              title: Text("Đăng xuất",style: TextStyle(color: (idx == 2 ? Colors.blueAccent:Colors.grey),),),
-              leading:Icon(Icons.logout_rounded,color: (idx == 2 ? Colors.blueAccent:Colors.grey)),
+              title: Text("Đăng xuất",style: TextStyle(color: (idx == 2 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey),),),
+              leading:Icon(Icons.logout_rounded,color: (idx == 2 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey)),
               onTap: ()
               {
                 if(idx!=2)

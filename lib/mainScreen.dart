@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoestore/components/personal.dart';
+import 'drawer.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -61,7 +62,8 @@ class _MainScreenState extends State<MainScreen> {
           child: const Text("Đây là trang thông báo"),
         ),
         const Personal()
-      ][currentIndex]
+      ][currentIndex],
+      drawer: const Menu(idx: 0),
     );
   }
 }
