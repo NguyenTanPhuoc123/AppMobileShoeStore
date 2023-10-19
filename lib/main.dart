@@ -7,12 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-
-<<<<<<< HEAD
-=======
   const MyApp({super.key});
   
->>>>>>> db34ebccffdaf80b26be605f55218c323311206b
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,15 +17,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-<<<<<<< HEAD
       initialRoute: '/',
       routes: {
-        '/': (context) => const MainScreen(),
         '/order': (context) => const Orders(),
       },
-=======
-      home:  MainScreen( )
->>>>>>> db34ebccffdaf80b26be605f55218c323311206b
+
+      home:  const MainScreen()
     );
   }
 }
