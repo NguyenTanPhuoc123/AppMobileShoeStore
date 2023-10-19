@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class Menu extends StatelessWidget {
   final idx;
@@ -25,7 +23,7 @@ class Menu extends StatelessWidget {
             
             
              ListTile(
-              title: Text("Cài đặt",style: TextStyle(color: (idx == 0 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey),),),
+              title: Text("Cài đặt",style: TextStyle(color: (idx == 0 ?const Color.fromARGB(255, 229, 115, 115):Colors.grey),),),
               leading:Icon(Icons.settings,color: (idx == 0 ? const Color.fromARGB(255, 229, 115, 115):Colors.grey)),
               onTap: ()
               {
