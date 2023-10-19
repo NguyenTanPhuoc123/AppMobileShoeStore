@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoestore/components/Order.dart';
-import 'package:shoestore/components/personal.dart';
+import 'package:shoestore/components/Order.dart';dd
 import 'package:shoestore/mainScreen.dart';
 
 void main() {

@@ -15,11 +15,17 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red[300],
+        leading: IconButton(icon:const Icon(Icons.menu),onPressed: () {},),
         title: Row(
-          mainAxisAlignment: MainAxisAlignment.end,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
+            const Text("DVPStore",style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
+            Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children:[
             IconButton(onPressed: (){}, icon:const Icon(Icons.search)),
-            IconButton(onPressed: (){}, icon:const Icon(Icons.shopping_bag_rounded)),
+            IconButton(onPressed: (){}, icon:const Icon(Icons.shopping_bag_rounded)),]
+            )
             ],
           )
       ),
