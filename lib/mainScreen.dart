@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoestore/components/personal.dart';
-import 'drawer.dart';
+import 'components/drawer.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -16,7 +16,6 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red[300],
-        leading: IconButton(icon:const Icon(Icons.menu),onPressed: () {},),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
