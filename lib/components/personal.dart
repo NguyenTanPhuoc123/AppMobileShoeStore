@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoestore/components/statistical.dart';
 
 
 class Personal extends StatelessWidget {
@@ -6,6 +7,7 @@ class Personal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Scaffold(
       appBar: AppBar(
         title: const Text('Thông Tin Cá Nhân'),
@@ -93,6 +95,10 @@ class UserInfoItem extends StatelessWidget {
           Text(value),
         ],
       ),
+=======
+    return const Scaffold(
+      body: Statistical(),
+>>>>>>> d81129fa953de4fa50503828e86cafc9b5a61e7e
     );
   }
 }
